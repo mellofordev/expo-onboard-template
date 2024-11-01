@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# Expo Onboard Template
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This template is pre-installed with Expo Router, NativeWind v4, and reusable React components similar to shadcn.
+## Template Images
 
-## Get started
+Here are some images of the templates:
 
-1. Install dependencies
+<div style="display: flex; justify-content: space-around;">
+   <img src="./assets/images/onboard_1.png" alt="Onboard Screen 1" width="200"/>
+   <img src="./assets/images/onboard_2.png" alt="Onboard Screen 2" width="200"/>
+   <img src="./assets/images/home.png" alt="Home Screen" width="200"/>
+</div>
+## Getting Started
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+To get started, clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/mellofordev/expo-onboard-template.git
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Navigate into the project directory:
 
-## Learn more
+```bash
+cd expo-onboard-template
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Install the dependencies:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npm install
+```
 
-## Join the community
+## Running the App
 
-Join our community of developers creating universal apps.
+To run the app, use the following command:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+## Features
+
+- **Expo Router**: Simplified navigation for your app.
+- **NativeWind v4**: Utility-first CSS framework for React Native.
+- **Reusable Components**: Pre-built components for faster development.
+
+## Screens
+
+- **Onboard Screen**: Includes basic styling to get you started.
+
+Enjoy building your app with this template!
